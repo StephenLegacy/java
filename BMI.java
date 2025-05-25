@@ -9,7 +9,7 @@ public class BMI {
         double height = scanner.nextDouble();
 
         // Prompt user for weight
-        System.out.print("Enter your weight in kilograms: ");
+        System.out.print("Enter yur weight in kilograms: ");
         double weight = scanner.nextDouble();
 
         // Calculate BMI
