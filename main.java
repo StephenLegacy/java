@@ -1,3 +1,3 @@
 public class main {
-    //coming soon
+    //coming sooner
 }

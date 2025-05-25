@@ -3,7 +3,7 @@
 # Enhanced script to backdate Git commits with better error handling and flexibility
 
 # Set the backdate timestamp (default: 2025-04-30 11:32:00)
-BACKDATE="${1:-"2025-05-25T12:30:00"}"
+BACKDATE="${1:-"2025-05-25T12:10:00"}"
 
 
 # Validate the date format
