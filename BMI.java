@@ -26,7 +26,7 @@ public class BMI {
         } else if (bmi >= 51 && bmi <= 60) {
             System.out.println("Obese.");
         } else {
-            System.out.println("Extremely obese hor invalid input range.");
+            System.out.println("Extremely obese or invalid input range.");
         }
 
         scanner.close();
