@@ -46,7 +46,7 @@ commit_file() {
 echo "Backdating commits to $BACKDATE on branch $CURRENT_BRANCH"
 
 # Commit each specified file
-commit_file "ideal.sh" "edit script"
+commit_file "ideal.sh" "check in sync"
 commit_file "main.java" "Update main file"
 commit_file "BMI.java" "Update main file"
 
