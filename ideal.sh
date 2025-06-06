@@ -3,7 +3,7 @@
 # Enhanced script to backdate Git commits with better error handling and flexibility
 
 # Set the backdate timestamp (default: 2025-04-30 11:32:00)
-BACKDATE="${1:-"2025-06-03T12:40:00"}"
+BACKDATE="${1:-"2025-06-06T12:40:00"}"
 
 
 # Validate the date format
@@ -46,9 +46,9 @@ commit_file() {
 echo "Backdating commits to $BACKDATE on branch $CURRENT_BRANCH"
 
 # Commit each specified file
-commit_file "ideal.sh" "check in sync"
+commit_file "ideal.sh" "check in sync now"
 commit_file "main.java" "Update main file"
-commit_file "BMI.java" "Update main file"
+
 
 # Push to remote if desired
 read -p "Do you want to push these commits to origin/$CURRENT_BRANCH? [y/N] " -n 1 -r

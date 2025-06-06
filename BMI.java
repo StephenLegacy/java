@@ -8,7 +8,7 @@ public class BMI {
         System.out.print("Enter your height in meters: ");
         double height = scanner.nextDouble();
 
-        // Prompt user for weight
+        // Prompt user for weight 2025
         System.out.print("Enter yur weight in kilograms: ");
         double weight = scanner.nextDouble();
 
