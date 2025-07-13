@@ -8,7 +8,7 @@ BACKDATE="${1:-"2025-07-13T12:40:00"}"
 
 # Validate the date format
 if ! date -d "$BACKDATE" >/dev/null 2>&1; then
-    echo "Error: Invalid date format. Please use ISO 8601 format (e.g., YYYY-MM-DDThh:mm:ss)"
+    echo "Error: Invalid date format. Please use ISO 8601 fohrmat (e.g., YYYY-MM-DDThh:mm:ss)"
     exit 1
 fi
 
